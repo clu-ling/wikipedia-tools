@@ -1,0 +1,10 @@
+# rules go here
+# they should be listed in the intended order of their application
+# lines beginning with # are comments
+# form: pattern -> replaceWith
+
+# replace urls w/ URL
+"https?[^\s]+(?=$|[,.] )" -> "URL"
+
+# replace urls w/ URL
+"www\..+(?=$|[,.] )" -> "URL"
